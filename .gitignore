@@ -1,0 +1,26 @@
+# env
+venv/
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+
+# ultralytics outputs
+runs/
+video/result/
+video/runs/
+
+# model weights / big files
+*.pt
+*.onnx
+*.ckpt
+*.bin
+
+# optional: logs
+*.log

@@ -14,3 +14,13 @@ scores, embeddings, spectrogram = m(w)
 print(int(sr.numpy()))
 print(scores.shape, embeddings.shape, spectrogram.shape)
 print("top_score", float(tf.reduce_max(scores).numpy()))
+
+# Цель:
+# распознавание звуковых событий в аудиофайле
+
+# Выход:
+# матрица вероятностей звуковых классов, 
+# векторные представления аудиосигнала, 
+# спектрограмма.
+
+# python audio/audio_classification.py

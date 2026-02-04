@@ -19,3 +19,11 @@ with torch.no_grad():
     y = model(x)
 
 print("Output shape:", y.shape)
+
+# Цель:
+# классификация изображения
+
+# Выход:
+# вектор предсказаний по классам изображений
+
+# python image/image_classification.py

@@ -13,3 +13,4 @@ r = requests.post(
 
 print(r.json()["message"]["content"])
 
+# python llm/llm_demo.py
